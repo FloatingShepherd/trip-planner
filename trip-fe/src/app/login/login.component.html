@@ -1,3 +1,17 @@
-<p>
-  login works!
-</p>
+<div style="height:80vh; width:100%;">
+  <div style="margin-left:auto; margin-right:auto; width:400px; margin-top:30vh; height: 400px;">
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <span class="input-group-text" id="basic-addon1">User Name</span>
+      </div>
+      <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1" [(ngModel)]="username">
+    </div>
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <span class="input-group-text" id="basic-addon1">Password</span>
+      </div>
+      <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1" [(ngModel)]="password">
+    </div>
+    <button type="button" class="btn btn-primary" (click)="login()">Login</button>
+  </div>
+</div>>
